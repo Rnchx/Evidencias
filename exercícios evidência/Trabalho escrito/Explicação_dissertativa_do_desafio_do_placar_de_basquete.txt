@@ -1,0 +1,41 @@
+Variáveis:
+
+(Variável para o time 1, exemplo: (time1)): Armazena a pontuação do time azul.
+(Variável para o time 2, exemplo: (time2)): Armazena a pontuação do time vermelho.
+(Variável para os rounds, exemplo: (rounds)): Armazena o número da rodada atual.
+(Variável para os resultados, exemplo: (ResultadoRounds)): Armazena os resultados das rodadas anteriores.
+
+
+
+Função para adcionar pontos com parametro exemplo: AdicionarPontos(pontos, lado):
+
+Recebe dois parâmetros: pontos (pontos a serem adicionados) e lado (lado do time).
+Verifica o lado (esquerda ou direita).
+Incrementa a pontuação do time correspondente pelo número de pontos fornecido.
+Atualiza o conteúdo do elemento HTML com a pontuação atualizada.
+
+
+
+Função para a finalização dos rounds, exemplo: FinalizarRound():
+
+Cria uma string contendo o resultado da rodada atual, com as pontuações dos times 1 e 2.
+Adiciona o resultado da rodada à lista ResultadoRounds.
+Obtém a referência do elemento HTML resultado_rounds, (div onde os resultados das rodadas são exibidos).
+Limpa o conteúdo da ResultadoRondsDiv.
+Utiliza um loop para repetir sobre a lista ResultadoRounds e atualiza o conteúdo da ResultadoRondsDiv, adicionando cada resultado como um parágrafo.
+Zera as pontuações dos times.
+Atualiza o conteúdo dos elementos HTML de pontuação com os valores zerados.
+Incrementa o número da rodada.
+Verifica se o número da rodada é maior que 7 (última rodada).
+
+Se por acaso for a última rodada:
+Determina o vencedor com base nas pontuações dos times.
+Cria uma string com o resultado final da partida.
+Adiciona o resultado final da partida à ResultadoRondsDiv.
+Exibe um alerta com o resultado final da partida.
+Chama a função RecomecarJogo() para reiniciar o jogo.
+
+Função RecomecarJogo():
+
+Zera as pontuações dos times, o número da rodada e a lista de resultados das rodadas anteriores.
+Atualiza o conteúdo dos elementos HTML de pontuação e da ResultadoRondsDiv com os valores zerados.

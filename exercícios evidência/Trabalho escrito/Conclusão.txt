@@ -1,0 +1,4 @@
+Em resumo, JavaScript é uma linguagem de programação popular usada para criar interatividade em sites e aplicativos da web.
+Ele permite que os desenvolvedores criem experiências interativas para os usuários, como animações, jogos e etc.
+JavaScript é executado no lado do cliente, o que significa que o código é executado no navegador do usuário em vez de em um servidor.
+É uma linguagem de programação de alto nível, interpretada e orientada a objetos.

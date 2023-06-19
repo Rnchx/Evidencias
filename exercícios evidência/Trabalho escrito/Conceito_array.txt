@@ -1,0 +1,14 @@
+Em JavaScript um array é uma estrutura de dados que permite o usuário de armazenar dados dentro de apenas uma única variável. Os valores apresentados dentro de um array são
+organizados como uma lista ordenada, sempre começando do item 0.
+
+Exemplo básico:
+
+let numeros = [10,20,30,40,50];
+
+.Neste exemplo temos 5 itens em nossa lista, e podemos defini-los como posições ou seja:
+
+10 = numeros[0]; 1ª posição.
+20 = numeros[1]; 2ª posição.
+30 = numeros[2]; 3ª posição.
+40 = numeros[3]; //
+50 = numeros[4]; //

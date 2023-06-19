@@ -1,0 +1,11 @@
+As variáveis em JavaScript são usadas para armazenar valores. Elas são declaradas usando a palavra-chave "let", "var" ou "const" seguindo do nome que o usuário escolhe para ela.
+O valor da variável pode ser atribuído usando o operador de atribuição "=", seguido pelo valor que você deseja atribuir à variável.
+
+exemplos:
+
+let batata = "batata";
+
+var amarelo = "amarelo";
+
+const numero = 10;
+

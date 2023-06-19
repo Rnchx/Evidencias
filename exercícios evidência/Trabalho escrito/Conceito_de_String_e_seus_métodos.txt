@@ -1,0 +1,7 @@
+Em JavaScript uma String é uma sequência de caracteres que são representados como textos. Alguns métodos que já usamos em sala de String:
+
+.length() = para obter o comprimento de uma String. exemplo: "Olá Mundo".length = 11.
+.toUpperCase() = para transformar a Strign em Maíscula. exemplo:"olá mundo".toUpperCase = "OLÁ MUNDO".
+.toLowerCase() = para transformar a Strign em Minúscula. exemplo: "OLÁ MUNDO".toLowerCase = "olá mundo".
+.concat() = para concatenar duas Strings ou seja, junta-las. exemplo: "O l á M u n d o".concat = "OláMundo".
+.split() = para dividir uma String em um array, com base no operador que o usuário escolhe. exemplo: "Olá Mundo".split(" ") = ["Olá", "Mundo"].

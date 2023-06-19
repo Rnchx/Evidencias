@@ -1,0 +1,9 @@
+Os laçoes de repetição em JavaScript fazem com que o código execute repetidamente enquanto uma condição específica for verdadeira.
+
+Exemplos:
+
+. O "for" é um laço de repetição comum que executa um bloco de código por uma determinada quantidade de vezes específica.
+
+. O "While" é um laço de repetição que executa um bloco de código enquanto uma condição específica é verdadeira.
+
+. O "Do While" é outro laço de repetição porém semelhante ao "While", ele executa o bloco de código pelo menos uma vez antes de verificar a condição.
